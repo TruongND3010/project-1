@@ -1,0 +1,67 @@
+.w-90 {
+    width: 90%;
+}
+
+.w-10 {
+    width: 10%;
+}
+
+.gap-10 {
+    gap: 10px;
+}
+
+.icon {
+    width: 24px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.body {
+    background: #489cc1;
+}
+
+.list-todo {
+    border: aliceblue solid 2px;
+    border-radius: 5px;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    height: calc(100vh - 500px);
+    overflow: auto;
+}
+
+.item {
+    background: aqua;
+    padding: 0 0 0 5px;
+    border-radius: 5px;
+    align-items: center;
+}
+
+.icon:hover {
+    background: #4d4e76;
+    border: darkgrey 1px solid;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.container {
+    background: white;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.h-30 {
+    height: 30px;
+}
+
+.content {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 5px;
+}
